@@ -1,0 +1,37 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+credentials
+credentials.json
+aws_credentials
+.aws/
+
+# Saídas geradas (mantém a pasta via .gitkeep)
+output/*
+!output/.gitkeep
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Observação: prints/ NÃO é ignorado — use para evidências do portfólio
